@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
     'react/jsx-no-target-blank': 0,
-    'no-undef': 0
+    'no-undef': 0,
+    'no-unused-vars': 0
   },
 }
