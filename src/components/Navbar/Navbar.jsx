@@ -6,7 +6,8 @@ const Navbar = () => {
     const option = <>
             <Link className='text-orange-400 text-lg' to={`/`}>Home</Link>
             <Link className='text-orange-400 text-lg' to={`/`}>About</Link>
-            <Link className='text-orange-400 text-lg' to={`/`}>Blog</Link>
+            <Link className='text-orange-400 text-lg' to={`/`}>Skills</Link>
+            <Link className='text-orange-400 text-lg' to={`/`}>Project</Link>
             <Link className='text-orange-400 text-lg' to={`/`}>Contact</Link>
     </>
 
