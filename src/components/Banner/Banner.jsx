@@ -19,9 +19,9 @@ const Banner = () => {
         <div className='max-w-7xl mx-auto py-20'>
             <div className='flex justify-between items-center'>
                 <div className='w-2/3'>
-                    <h3 className='text-5xl font-bold mb-5'>Hi, I am</h3>
-                    <h3 className='text-5xl font-bold mb-5'>Rayhan Ali</h3>
-                    <span className='text-5xl uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent' ref={el} />
+                    <h3 className='text-6xl font-bold mb-5'>Hi, I am</h3>
+                    <h3 className='text-6xl font-bold mb-5'>Rayhan Ali</h3>
+                    <span className='text-6xl uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent' ref={el} />
                 </div>
                 <div className='w-1/3'>
                     <img className='rounded-xl' src={bannerImg} alt="" />
