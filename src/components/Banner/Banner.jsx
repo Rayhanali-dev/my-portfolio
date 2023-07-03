@@ -16,15 +16,15 @@ const Banner = () => {
         };
     }, []);
     return (
-        <div className='max-w-7xl mx-auto py-20'>
-            <div className='flex justify-between items-center'>
-                <div className='w-2/3'>
-                    <h3 className='text-6xl font-bold mb-5'>Hi, I am</h3>
-                    <h3 className='text-6xl font-bold mb-5'>Rayhan Ali</h3>
-                    <span className='text-6xl uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent' ref={el} />
+        <div className='max-w-7xl mx-auto py-10 md:py-20 px-6 md:px-0'>
+            <div className='flex flex-col md:flex-row justify-between items-center'>
+                <div className='w-full md:w-2/3 text-center md:text-left'>
+                    <h3 className='md:text-6xl text-2xl font-bold mb-2 md:mb-5'>Hi, I am</h3>
+                    <h3 className='md:text-6xl text-2xl font-bold mb-2 md:mb-5'>Rayhan Ali</h3>
+                    <span className='md:text-6xl text-2xl uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent' ref={el} />
                 </div>
-                <div className='w-1/3'>
-                    <img className='rounded-xl' src={bannerImg} alt="" />
+                <div className='w-full md:w-1/3 mt-6 md:mt-0'>
+                    <img className='rounded-xl w-full' src={bannerImg} alt="" />
                 </div>
             </div>
         </div>

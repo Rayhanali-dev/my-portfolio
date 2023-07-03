@@ -2,10 +2,10 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-20'>
-            <h2 className='text-center text-5xl mb-8 uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>Skills</h2>
+        <div className='max-w-7xl mx-auto mb-20 px-6 md:px-0'>
+            <h2 className='text-center md:text-5xl text-3xl mb-8 uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>Skills</h2>
             <div>
-                <h3 className='text-6xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Expertise: </h3>
+                <h3 className='lg:text-6xl text-2xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Expertise: </h3>
                 <div className='flex flex-wrap gap-6 justify-start mb-12'>
                     <button className="btn btn-success">HTML</button>
                     <button className="btn btn-primary">CSS</button>
@@ -23,16 +23,16 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <h3 className='text-6xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Comfortable: </h3>
-                <div className='flex gap-6 justify-start mb-12'>
+                <h3 className='md:text-6xl text-2xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Comfortable: </h3>
+                <div className='flex flex-wrap gap-6 justify-start mb-12'>
                     <button className="btn btn-accent">Express js</button>
                     <button className="btn btn-info">Node js</button>
                     <button className="btn btn-secondary">MongoDB</button>
                 </div>
             </div>
             <div>
-                <h3 className='text-6xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Familiar: </h3>
-                <div className='flex gap-6 justify-start mb-12'>
+                <h3 className='md:text-6xl text-2xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Familiar: </h3>
+                <div className='flex flex-wrap gap-6 justify-start mb-12'>
                     <button className="btn btn-secondary">JWT</button>
                     <button className="btn btn-primary">React Query</button>
                     <button className="btn  btn-success">TanStack Query</button>
