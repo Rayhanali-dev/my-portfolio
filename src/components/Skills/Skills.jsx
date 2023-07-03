@@ -26,6 +26,7 @@ const Skills = () => {
                 <h3 className='text-6xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Comfortable: </h3>
                 <div className='flex gap-6 justify-start mb-12'>
                     <button className="btn btn-accent">Express js</button>
+                    <button className="btn btn-info">Node js</button>
                     <button className="btn btn-secondary">MongoDB</button>
                 </div>
             </div>
