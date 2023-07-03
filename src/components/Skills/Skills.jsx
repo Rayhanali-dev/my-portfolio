@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto mb-20'>
             <h2 className='text-center text-5xl mb-8 uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>Skills</h2>
             <div>
                 <h3 className='text-6xl mb-8 uppercase bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent'>Expertise: </h3>
