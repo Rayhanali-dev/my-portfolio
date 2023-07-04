@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const option = <>
-            <Link className='text-orange-400 text-lg' to={`/`}>Home</Link>
-            <Link className='text-orange-400 text-lg' to={`/`}>About</Link>
-            <Link className='text-orange-400 text-lg' to={`/`}>Skills</Link>
-            <Link className='text-orange-400 text-lg' to={`/`}>Project</Link>
-            <Link className='text-orange-400 text-lg' to={`/`}>Contact</Link>
+            <a className='text-orange-400 text-lg' href="#banner">Home</a>
+            <a className='text-orange-400 text-lg' href="#about">About</a>
+            <a className='text-orange-400 text-lg' href="#skills">Skills</a>
+            <a className='text-orange-400 text-lg' href="#projects">Project</a>
+            <a className='text-orange-400 text-lg' href="#contact">Contact</a>
     </>
 
     return (
-        <div className='bg-slate-600'>
+        <div className='bg-slate-600 fixed top-0 w-full z-10'>
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown absolute right-0">
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={`/`} className="text-orange-400 py-2 px-4 rounded-xl text-lg hidden md:block bg-orange-950">Download Resume</Link>
+                    <Link to={`https://gold-verena-3.tiiny.site/`} className="text-orange-400 py-2 px-4 rounded-xl text-lg hidden md:block bg-orange-950">Download Resume</Link>
                 </div>
             </div>
         </div>

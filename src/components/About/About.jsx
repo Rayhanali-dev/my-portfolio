@@ -2,11 +2,11 @@ import React from 'react';
 import img from '../../assets/about.jpg'
 const About = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div id='about' className='max-w-7xl mx-auto'>
             <h2 className='text-center md:text-5xl px-6 md:px-0 text-3xl mb-8 uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>About me</h2>
-            <div className='md:py-20 py-5 flex px-6 flex-col md:flex-row items-center'>
+            <div className='md:py-20 py-5 flex px-6 md:px-0 flex-col md:flex-row items-center'>
                 <div className='w-full md:w-1/2 mb-6 md:mb-0'>
-                    <img className='rounded-xl' src={img} alt="about img" />
+                    <img className='rounded-xl md:w-[90%] w-full' src={img} alt="about img" />
                 </div>
                 <div className='w-full md:w-1/2'>
                     <p className='text-2xl'>Hi, </p>
@@ -16,7 +16,7 @@ const About = () => {
 
                     <p className='mb-7 leading-7 text-lg'> As a junior developer, I am eager to refine my coding skills, improve problem-solving abilities, and become a sought-after professional in web development. I am committed to continuous growth and actively seek new challenges to expand my knowledge and contribute to the advancement of the field. </p>
 
-                    <p className='mb-7 leading-7 text-lg'>Thank you for taking the time to get to know me. I am excited to leverage my skills and enthusiasm to create innovative web solutions. Let's collaborate and create remarkable web experiences together!</p>
+                    <p className='mb-7 md:mb-0 leading-7 text-lg'>Thank you for taking the time to get to know me. I am excited to leverage my skills and enthusiasm to create innovative web solutions. Let's collaborate and create remarkable web experiences together!</p>
                 </div>
             </div>
         </div>

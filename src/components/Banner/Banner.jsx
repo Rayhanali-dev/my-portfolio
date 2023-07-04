@@ -16,7 +16,7 @@ const Banner = () => {
         };
     }, []);
     return (
-        <div className='max-w-7xl mx-auto py-10 md:py-20 px-6 md:px-0'>
+        <div id='banner' className='max-w-7xl mx-auto py-10 md:py-20 md:mt-12 mt-0 px-6 md:px-0'>
             <div className='flex flex-col md:flex-row justify-between items-center'>
                 <div className='w-full md:w-2/3 text-center md:text-left'>
                     <h3 className='md:text-6xl text-2xl font-bold mb-2 md:mb-5'>Hi, I am</h3>

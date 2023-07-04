@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Project = () => {
     return (
-        <div className='max-w-7xl mx-auto px-6 md:px-0'>
+        <div id='projects' className='max-w-7xl mx-auto px-6 md:px-0'>
             <h2 className='text-center lg:text-5xl text-3xl uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>Projects</h2>
             <div className='py-20 grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3'>
                 <div className='p-4 group rounded-xl border-4 border-orange-400'>
