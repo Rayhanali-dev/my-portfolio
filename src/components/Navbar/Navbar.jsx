@@ -32,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={`https://gold-verena-3.tiiny.site/`} className="text-orange-400 py-2 px-4 rounded-xl text-lg hidden md:block bg-orange-950">Download Resume</Link>
+                    <Link to={`https://gold-verena-3.tiiny.site/`} className="text-orange-400 py-2 px-4 rounded-xl text-lg hidden lg:block bg-orange-950">Download Resume</Link>
                 </div>
             </div>
         </div>

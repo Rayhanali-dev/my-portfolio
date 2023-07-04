@@ -1,14 +1,22 @@
 import React from 'react';
-import img from '../../assets/about.jpg'
+import img from '../../assets/about.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+    offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+    delay: 100,
+});
 const About = () => {
     return (
         <div id='about' className='max-w-7xl mx-auto'>
             <h2 className='text-center md:text-5xl px-6 md:px-0 text-3xl mb-8 uppercase bg-gradient-to-r from-orange-500 to-orange-700 bg-clip-text text-transparent'>About me</h2>
             <div className='md:py-20 py-5 flex px-6 md:px-0 flex-col md:flex-row items-center'>
-                <div className='w-full md:w-1/2 mb-6 md:mb-0'>
+                <div data-aos="fade-up-right" data-aos-duration="500" className='w-full md:w-1/2 mb-6 md:mb-0'>
                     <img className='rounded-xl md:w-[90%] w-full' src={img} alt="about img" />
                 </div>
-                <div className='w-full md:w-1/2'>
+                <div data-aos="fade-left" data-aos-duration="500" className='w-full md:w-1/2'>
                     <p className='text-2xl'>Hi, </p>
                     <p className='mb-7 leading-7 text-lg'>I'm  Rayhan Ali, a junior MERN stack developer with a strong passion for web development. I have completed a comprehensive MERN stack web development course and gained hands-on experience building interactive web applications. I am dedicated to continuous learning and staying updated with the latest trends in the field.</p>
 
